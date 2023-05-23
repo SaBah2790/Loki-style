@@ -8,33 +8,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <img src="./archive/IMG-20220126-WA0005.jpg" alt="siberian husky dog"
+      class="logo" / >
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#"> Food</a></li>
+        <li><a href="#">Toys</a></li>
+      </ul>
+    </header>
     <div class="top-bit">
-      <header>
-        <img
-          src="./archive/IMG-20220126-WA0005.jpg"
-          alt="siberian husky dog"
-          class="logo"
-        />
-        <p>Loki</p>
-        <ul>
-          <li><a href="#">Link one</a></li>
-          <li><a href="#">Link two</a></li>
-          <li><a href="#">Link three</a></li>
-        </ul>
-      </header>
-      <div class="container">
-        <h1>This is Loki, the Siberian Husky.</h1>
-        <h3>
-          Loki is his legal name, but he is called by many names by his
-          "humans"; all of which he obviously ignores, due his selective
-          hearing, this is usually cured by the presence of the magical "snak".
-          Like most huskies, he is a little shit, but makes up for it by being
-          incredibly cute.
-        </h3>
-        <button onclick="document.getElementById('carrot').play()">
+      <div class="hero">Loki, the Siberian Husky</div>
+      <div class="top-bit-three">
+        Loki is his legal name, but he is called by many names by his "humans";
+        all of which he obviously ignores, due his selective hearing, this is
+        usually cured by the presence of the magical "snak".
+        <button
+          class="first-button"
+          onclick="document.getElementById('carrot').play()"
+        >
           Give carrots
         </button>
         <audio id="carrot" src="./archive/carrot.mp3"></audio>
+      </div>
+      <div>
         <img
           class="puppy"
           src="./archive/IMG-20190401-WA0001.jpg"
@@ -42,70 +39,68 @@
           width="300px"
         />
       </div>
-      <div class="middle-one-bit">
-        <h2>The master of crop destruction</h2>
-        <img
-          class="one"
-          src="./archive/IMG-20190731-WA0003 (1).jpg"
-          alt="Siberian Husky on grass"
-          width="300px"
-          height="300px"
-        />
-        <div>
-          Don't be fooled! This is a cat dressed-up as a dog. Sure it's not
-          Halloween, but they're smart enough to fool you.
-        </div>
-        <img
-          class="two"
-          src="./archive/IMG-20190904-WA0000.jpg"
-          alt="Siberian Husky napping"
-          width="300px"
-          height="300px"
-        />
-        <div>
-          Much needed cockroach sleep after chasing squirrels and drones.
-        </div>
-        <img
-          class="three"
-          src="./archive/IMG_20201220_082153 (1).jpg"
-          alt="Siberian Husky cuddling woman"
-          width="300px"
-          height="300px"
-        />
-        <div>
-          Cuddles and kisses are not something he needs but something he allows
-          his "humans" to do sometimes.
-        </div>
-        <img
-          class="four"
-          src="./archive/IMG_20210608_223121_1.jpg"
-          alt="Siberian Husky being silly"
-          width="300px"
-          height="300px"
-        />
-        <div>
-          They don't always look majestic; this is proof. Sweet little disaster.
-        </div>
+    </div>
+    <div class="middle-one-bit">
+      <h2>The master of crop destruction</h2>
+      <img
+        class="one"
+        src="./archive/IMG-20190731-WA0003 (1).jpg"
+        alt="Siberian Husky on grass"
+        width="300px"
+        height="300px"
+      />
+      <div>
+        Don't be fooled! This is a cat dressed-up as a dog. Sure it's not
+        Halloween, but they're smart enough to fool you.
       </div>
-      <div class="middle-two-bit">
-        "I'm terrified by people who own huskies. You're going to adopt a little
-        wolf who will run your whole home?! But they're also a permanent toddler
-        who knows how to speak, just enough to bully you?? How are you people
-        strong enough for this?" <span> Anonymous </span>
+      <img
+        class="two"
+        src="./archive/IMG-20190904-WA0000.jpg"
+        alt="Siberian Husky napping"
+        width="300px"
+        height="300px"
+      />
+      <div>Much needed cockroach sleep after chasing squirrels and drones.</div>
+      <img
+        class="three"
+        src="./archive/IMG_20201220_082153 (1).jpg"
+        alt="Siberian Husky cuddling woman"
+        width="300px"
+        height="300px"
+      />
+      <div>
+        Cuddles and kisses are not something he needs but something he allows
+        his "humans" to do sometimes.
       </div>
-      <div class="bottom-bit">
-        <h3>If you want to know more or adopt a husky...</h3>
-        <p>
-          Check out the Siberian Husky Welfare Association for more information
-          on their personality and history.
-        </p>
-        <button>
-          <a
-            href="https://siberianhuskywelfare.co.uk/huskies-what-you-need-to-know/"
-            >More on Huskies
-          </a>
-        </button>
+      <img
+        class="four"
+        src="./archive/IMG_20210608_223121_1.jpg"
+        alt="Siberian Husky being silly"
+        width="300px"
+        height="300px"
+      />
+      <div>
+        They don't always look majestic; this is proof. Sweet little disaster.
       </div>
+    </div>
+    <div class="middle-two-bit">
+      "I'm terrified by people who own huskies. You're going to adopt a little
+      wolf who will run your whole home?! But they're also a permanent toddler
+      who knows how to speak, just enough to bully you?? How are you people
+      strong enough for this?" <span> Anonymous </span>
+    </div>
+    <div class="bottom-bit">
+      <h3>If you want to know more or adopt a husky...</h3>
+      <p>
+        Check out the Siberian Husky Welfare Association for more information on
+        their personality and history.
+      </p>
+      <button class="second-button">
+        <a
+          href="https://siberianhuskywelfare.co.uk/huskies-what-you-need-to-know/"
+          >More on Huskies
+        </a>
+      </button>
     </div>
     <footer>Copyright © The Odin Project 2021</footer>
   </body>
